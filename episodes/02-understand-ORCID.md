@@ -1,5 +1,5 @@
 ---
-title: "Using Markdown"
+title: "Understanding ORCID"
 teaching: 10
 exercises: 2
 ---
