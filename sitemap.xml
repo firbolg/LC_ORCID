@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://firbolg.github.io/LC_ORCID/00-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://firbolg.github.io/LC_ORCID/01-create-ORCID.html</loc>
+  </url>
+  <url>
     <loc>https://firbolg.github.io/LC_ORCID/01-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://firbolg.github.io/LC_ORCID/02-understand-ORCID.html</loc>
+  </url>
+  <url>
+    <loc>https://firbolg.github.io/LC_ORCID/03-configure-ORCID.html</loc>
   </url>
   <url>
     <loc>https://firbolg.github.io/LC_ORCID/404.html</loc>
@@ -22,7 +34,19 @@
     <loc>https://firbolg.github.io/LC_ORCID/index.html</loc>
   </url>
   <url>
+    <loc>https://firbolg.github.io/LC_ORCID/instructor/00-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://firbolg.github.io/LC_ORCID/instructor/01-create-ORCID.html</loc>
+  </url>
+  <url>
     <loc>https://firbolg.github.io/LC_ORCID/instructor/01-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://firbolg.github.io/LC_ORCID/instructor/02-understand-ORCID.html</loc>
+  </url>
+  <url>
+    <loc>https://firbolg.github.io/LC_ORCID/instructor/03-configure-ORCID.html</loc>
   </url>
   <url>
     <loc>https://firbolg.github.io/LC_ORCID/instructor/404.html</loc>
