@@ -1,5 +1,5 @@
 ---
-title: "Using Markdown"
+title: "Connecting Systems"
 teaching: 10
 exercises: 2
 ---

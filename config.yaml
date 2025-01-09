@@ -66,7 +66,6 @@ contact: 'dolanl@iu.edu' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- 00-introduction.md
 - 01-create-ORCID.md
 - 02-understand-ORCID.md
 - 03-configure-ORCID.md
