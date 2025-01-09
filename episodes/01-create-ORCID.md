@@ -6,34 +6,28 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- How can I create or update my ORCID profile?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Describe who runs ORCID and how it can support open science
+- Describe to someone how to create or update an ORCID profile
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## What is an ORCID?
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+ORCID stands for Open Researcher and Contributor ID. It is a 16-digit unique identifier for scholarly authors. You can think of it as an online curriculum vitae. 
+It can be very helpful for: 
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+* Disambiguation of authors with similar names
+* Tracking individual author name changes
+* Submissions to journals and grant applications
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+Creating and maintaining an ORCID record allows you to claim your scholarly online presence. You have the autonomy to list your works, grants, affiliations, etc. On a larger scale, departments may be interested in their faculty having well maintained records to aid in tracking of scholarly output. ORCID has an integration with many different tools online which we will cover in the next episodes. By curating the ORCID record, researchers can save time later with these integrations that will auto-populate other things they need.  
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -41,6 +35,23 @@ Inline instructor notes can help inform instructors of timing challenges
 associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Steps to Create an ORCID
+
+1. Go to the ORCID homepage: https://orcid.org/ 
+2. Click on “Sign in / Register” in the top right corner
+3. If you already have an ORCID record, try signing in
+4. If you do not have an ORCID record, click “Register now”. 
+5. Add a backup email to your account so you can always retrieve your account
+
+
+
+
+::::::::::::::::::::::::::::::::::::: callout
+
+If an account with your name already exists it may ask if it is you. If so, follow the prompts to retrieve this account. 
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
