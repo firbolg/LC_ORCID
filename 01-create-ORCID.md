@@ -6,34 +6,28 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- How can I create or update my ORCID profile?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Describe who runs ORCID and how it can support open science
+- Describe to someone how to create or update an ORCID profile
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## What is an ORCID?
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+ORCID stands for Open Researcher and Contributor ID. It is a 16-digit unique identifier for scholarly authors. You can think of it as an online curriculum vitae. 
+It can be very helpful for: 
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+* Disambiguation of authors with similar names
+* Tracking individual author name changes
+* Submissions to journals and grant applications
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+Creating and maintaining an ORCID record allows you to claim your scholarly online presence. You have the autonomy to list your works, grants, affiliations, etc. On a larger scale, departments may be interested in their faculty having well maintained records to aid in tracking of scholarly output. ORCID has an integration with many different tools online which we will cover in the next episodes. By curating the ORCID record, researchers can save time later with these integrations that will auto-populate other things they need.  
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -42,15 +36,45 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Steps to Create an ORCID
+
+1. Go to the ORCID homepage: https://orcid.org/ 
+2. Click on “Sign in / Register” in the top right corner
+3. If you already have an ORCID record, try signing in
+4. If you do not have an ORCID record, click “Register now”. 
+5. Add a backup email to your account so you can always retrieve your account
+
+
+
+
+::::::::::::::::::::::::::::::::::::: callout
+
+## "ACCOUNT ALREADY EXISTS" Message
+
+If an account with your name already exists, you may see a window pop up asking if it is you. If so, follow the prompts to retrieve this account. 
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::: callout
+
+## CAUTION
+
+If you have duplicate records, you can contact ORCID directly and let them know which record should be closed.  
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
+## Linking to your ORCID record
 
-What is the output of this command?
+You have created your ORCID record!
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+Place a hyperlink to your record in a few of the following places:
+
+* CV header
+* Email signature
+* Social media bio
+* Personal/institutional webpage
+* Any current works in progress (scholarly papers, posters, presentations)
+
 
 :::::::::::::::::::::::: solution 
 
@@ -61,53 +85,39 @@ paste("This", "new", "lesson", "looks", "good")
 ```
 
 :::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution 
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Figures
+## Visibility Settings
 
-You can use standard markdown for static figures with the following syntax:
 
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+In your account settings, there is a section called “Visibility”. You can select the default for new items added to your ORCID record. 
+We recommend selecting “Everyone”. ORCID is most helpful to you and other users when it is populated for everyone to read. 
+While populating your profile, you will notice that you can change the visibility of each individual item on your record. For example. You can make one of your emails public, while making your back up email viewable to “only me”. 
 
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
 
-::::::::::::::::::::::::::::::::::::: callout
+::::::::::::::::::::::::::::::::::::: challenge
 
-Callout sections can highlight information.
+## Populating your record
 
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
+While logged into your profile: 
+
+* Edit the “Names” box to add your preferred “Published name”, as well as some “Also known as” names to help people find your record. 
+* Add your affiliations:
+
+   * Add current employment to make it easier for people to identify your record from the ORCID search results page. Adding past employment could be helpful as well.
+   * Consider if some of your affiliations should go under “Education and Qualifications”
+* Try adding a few of your works
+
+   * Enter any type of scholarly product you have authored (posters, conference talks, articles, research tools, etc.)
+   * Utilize the uploading tools to populate for you, like "Add DOI" or "Add PubMed ID"
+   * In the future, submitting works with your ORCiD ID to the publisher will autopopulate your page when the work is published.
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- We have set up your ORCID up to be usable and helpful to others 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
