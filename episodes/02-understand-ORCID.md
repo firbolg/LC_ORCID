@@ -6,34 +6,29 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- How can having an ORCID benefit scholars through practicing open science?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Describe author disambiguation and why it matters (makes your work Findable)
+- List the range of scholarly outputs you can track (makes your work Accessible)
+- Introduce systems where ORCID can be integrated (makes your record Interoperable)
+- Understand how ORCID is institution agnostic (makes your record Reusable)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## ORCID's Place in Open Science Workflows
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+When an ORCID profile is populated and shared publicly, it becomes a powerful mechanism for structural change in scholarly communication. Benefits to scholars accumulate over the course of their careers, and what initially might look like one more account with the same information as their CV can actually free them from tedious, repetitive tasks. The more an ORCID is understood as a tool for making scholarly online presence robust and persistent, the more valuable it becomes to each scholar. Open science advances as the scholarly community collectively experiences these benefits. 
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+In this lesson we will look at the major benefits of maximizing an ORCID’s effectiveness, with the purpose of forming concepts to support advocacy and promotion within our institutional communities. 
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+## Author Disambiguation
+
+As the number of scholars publishing work increases, the problem of telling authors apart from each other becomes more important to solve. When only internal or proprietary systems hold authoritative metadata that is verified by the authors, librarians, or other trusted parties, the value of their work is diminished. Especially as scholars move from institution to institution, and affiliations are listed in a variety of ways, records become harder to track. Databases which aggregate journals may not be able to accurately distinguish among many authors with the same name. Departments may not be able to track their publishing activity. Researchers working in adjacent areas may not find each other to collaborate. Recruiters may not be aware of the full scope of a researcher’s contribution to their field. A scholar may be asked to enter the same information about their published work over and over in different systems, detracting from their focus and taking away cognitive resources that could be assigned to high value tasks.
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -44,32 +39,45 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
+## RANDOM NAMES, REAL AUTHORS?
 
-What is the output of this command?
+1. Use Namey to generate a random name:  https://namey.muffinlabs.com/ 
+2. Enter this name into ORCID’s search box:  https://orcid.org/ 
+3. Put quotes around the text so that it is read as a string
+4. Hit enter. How many results did you get?
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+Try doing this with your own name, or the name of a colleague. Identical names can appear to be the same person, but ORCID gives researchers a persistent Unique Identifier (UID) that keeps them distinctive in any system that integrates it.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::: challenge
+
+
+## QUESTIONS:
+
+* How many variations of listing your institutional affiliation have you seen? 
+* How many have you heard people use to refer to their place of employment, or their unit or department?
+* Is there a standard way of listing affiliation at your institution? 
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::: challenge
+
+## NAME CHANGES
+
+What are some reasons an author might want to edit how their name appears in connection with their publications?
 
 :::::::::::::::::::::::: solution 
 
-## Output
+## POSSIBLE SOLUTIONS
  
-```output
-[1] "This new lesson looks good"
-```
+* Co-authors might submit your name in a way you do not prefer
+* Your legal name may change over time
+* Branding: a standard name standardizes your scholarly publishing online presence
 
-:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::: 
 
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution 
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Figures
