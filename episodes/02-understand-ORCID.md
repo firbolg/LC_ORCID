@@ -19,9 +19,9 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## ORCID's Place in Open Science Workflows
+## ORCID as Open Science
 
-When an ORCID profile is populated and shared publicly, it becomes a powerful mechanism for structural change in scholarly communication. Benefits to scholars accumulate over the course of their careers, and what initially might look like one more account with the same information as their CV can actually free them from tedious, repetitive tasks. The more an ORCID is understood as a tool for making scholarly online presence robust and persistent, the more valuable it becomes to each scholar. Open science advances as the scholarly community collectively experiences these benefits. 
+When an ORCID record is populated and shared publicly, it becomes a powerful mechanism for structural change in scholarly communication. Benefits to scholars accumulate over the course of their careers, and what initially might look like one more account with the same information as their CV can actually free them from tedious, repetitive tasks. The more an ORCID is understood as a tool for making scholarly online presence robust and persistent, the more valuable it becomes to each scholar. Open science advances as the scholarly community collectively experiences these benefits. 
 
 In this lesson we will look at the major benefits of maximizing an ORCID’s effectiveness, with the purpose of forming concepts to support advocacy and promotion within our institutional communities. 
 
@@ -55,8 +55,8 @@ Try doing this with your own name, or the name of a colleague. Identical names c
 
 ## QUESTIONS:
 
+* Do people at your institution verbally use more than one term or set of terms to refer to their place of employment, their unit or department?
 * How many variations of listing your institutional affiliation have you seen? 
-* How many have you heard people use to refer to their place of employment, or their unit or department?
 * Is there a standard way of listing affiliation at your institution? 
 
 
@@ -70,7 +70,7 @@ What are some reasons an author might want to edit how their name appears in con
 
 :::::::::::::::::::::::: solution 
 
-## POSSIBLE SOLUTIONS
+## SOME SOLUTIONS
  
 * Co-authors might submit your name in a way you do not prefer
 * Your legal name may change over time
@@ -80,42 +80,39 @@ What are some reasons an author might want to edit how their name appears in con
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Figures
+## Range of Scholarly Products
 
-You can use standard markdown for static figures with the following syntax:
+Different institutions and systems ask for scholarly works to be presented in different formats. The way scholarly works are grouped may differ according to information organization decisions made by an enterprise software provider, or a policy-maker responding to institutional priorities. This discourages diversity in scholarly production because it does not allow exploration or development of emerging formats. It also may overlook established discipline-specific forms of scholarly works. Subscription-based databases, as well as openly accessible databases like PubMedCentral, and webcrawlers like Google Scholar, are all only as complete as the records of scholarly works that have been created, and many systems do not allow the full range of scholarly works to be tracked or recorded. 
+While ORCID profiles can minimize time spent on repetitive tasks through automatic updates, it can also be a tool for creating a complete record of scholarly works through manual addition of more uncommon scholarly products. There are more than 40 types of works available to choose when adding a work to an ORCID profile.
 
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+#### ORCID Record Scholarly Work Categories:
+![](fig/scholarly_works.png){alt='Scholarly Works'}
 
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
 
-::::::::::::::::::::::::::::::::::::: callout
+::::::::::::::::::::::::::::::::::::: challenge
 
-Callout sections can highlight information.
+## QUESTIONS:
 
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
+* Are there any categories which are new to you, when conceptualizing what counts as a scholarly product?
+* Is there a category you would like to see added?
+* Does a work that you have not added to your CV or institutional tracking system match up with an ORCID category? 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+Putting the records of an author’s scholarly products in one place that persists across systems helps make their work accessible. As more systems integrate ORCID, it also streamlines access to the full scope of scholarship that has been done. If you find one work by an author, you can quickly find their other works.
 
-## Math
+## Integrations
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+As a standalone system, an ORCID is not necessarily more valuable than any other scholarly identifier. Because it can both integrate and be integrated into other systems, an ORCID can serve as a key to access a scholarly presence controlled by the scholar. Additionally, librarians or other trusted parties can be added to profiles so that things like standardized affiliations can be curated. 
+Many other systems which track publications have integrated ORCIDs. By connecting to some of the major publication tracking systems, scholars can minimize the time they spend on repetitive data entry, minimize errors, and validate their scholarly record. We will look at how to connect some of these systems in the next episode.
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- The value of an ORCID goes up over the course of a scholar’s career
+- Connecting an ORCID to other systems maximizes its benefit to scholarly online presence
+- ORCID records help make research FAIR (Findable, Accessible, Inmteroperable, and Reusable)
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
