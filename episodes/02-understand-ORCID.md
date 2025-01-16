@@ -86,8 +86,8 @@ Different institutions and systems ask for scholarly works to be presented in di
 While ORCID profiles can minimize time spent on repetitive tasks through automatic updates, it can also be a tool for creating a complete record of scholarly works through manual addition of more uncommon scholarly products. There are more than 40 types of works available to choose when adding a work to an ORCID profile.
 
 #### ORCID Record Scholarly Work Categories:
-![](fig/scholarly_works.png){alt='Scholarly Works'}
 
+![ORCID Record Categories for Scholarly Works](fig/scholarly_works.png){alt='Scholarly_Works'} 
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
