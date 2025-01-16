@@ -87,7 +87,7 @@ While ORCID profiles can minimize time spent on repetitive tasks through automat
 
 #### ORCID Record Scholarly Work Categories:
 
-![ORCID Record Categories for Scholarly Works](fig/scholarly_works.png){alt='Scholarly_Works'} 
+![ORCID Record Categories for Scholarly Works](https://github.com/firbolg/LC_ORCID/blob/de6c5f5a849867adea3e35e929ae7bcc55773be5/episodes/fig/scholarly_works.PNG){alt='Scholarly_Works'} 
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
