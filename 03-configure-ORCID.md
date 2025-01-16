@@ -10,7 +10,6 @@ exercises: 2
 - What are the benefits of enabling auto-updates for your ORCID record?
 - How do different systems handle the integration with ORCID?
 - What steps should you take to maintain accurate records across all platforms?
-- How can you troubleshoot issues with your ORCID integrations?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -115,14 +114,9 @@ e.g. by providing the answer to a commonly-asked question.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Math
+## Placeholder 
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
+Conlusion stuff
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
