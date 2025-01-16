@@ -27,7 +27,9 @@ In this lesson we will look at the major benefits of maximizing an ORCID’s eff
 
 ## Author Disambiguation
 
-As the number of scholars publishing work increases, the problem of telling authors apart from each other becomes more important to solve. When only internal or proprietary systems hold authoritative metadata that is verified by the authors, librarians, or other trusted parties, the value of their work is diminished. Especially as scholars move from institution to institution, and affiliations are listed in a variety of ways, records become harder to track. Databases which aggregate journals may not be able to accurately distinguish among many authors with the same name. Departments may not be able to track their publishing activity. Researchers working in adjacent areas may not find each other to collaborate. Recruiters may not be aware of the full scope of a researcher’s contribution to their field. A scholar may be asked to enter the same information about their published work over and over in different systems, detracting from their focus and taking away cognitive resources that could be assigned to high value tasks.
+As the number of scholars publishing work increases, the problem of telling authors apart from each other becomes more important to solve. When only internal or proprietary systems hold authoritative metadata that is verified by the authors, librarians, or other trusted parties, the value of their work is diminished. Especially as scholars move from institution to institution, and affiliations are listed in a variety of ways, records become harder to track. Databases which aggregate journals may not be able to accurately distinguish among many authors with the same name. Departments may not be able to track their publishing activity. Researchers working in adjacent areas may not find each other to collaborate. Recruiters may not be aware of the full scope of a researcher’s contribution to their field. 
+
+An ORCID disambiguates among scholars with similar or identical names by assigning one persistent, unique identifier per person. Each identifier is a string of numbers generated and stored by ORCID. This identifier serves as the focal point of other relevant information such as affiliation and scholarly works. Scholarly works become more *findable* when a person is matched with an ORCID. 
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
@@ -83,7 +85,8 @@ What are some reasons an author might want to edit how their name appears in con
 ## Range of Scholarly Products
 
 Different institutions and systems ask for scholarly works to be presented in different formats. The way scholarly works are grouped may differ according to information organization decisions made by an enterprise software provider, or a policy-maker responding to institutional priorities. This discourages diversity in scholarly production because it does not allow exploration or development of emerging formats. It also may overlook established discipline-specific forms of scholarly works. Subscription-based databases, as well as openly accessible databases like PubMedCentral, and webcrawlers like Google Scholar, are all only as complete as the records of scholarly works that have been created, and many systems do not allow the full range of scholarly works to be tracked or recorded. 
-While ORCID profiles can minimize time spent on repetitive tasks through automatic updates, it can also be a tool for creating a complete record of scholarly works through manual addition of more uncommon scholarly products. There are more than 40 types of works available to choose when adding a work to an ORCID profile.
+
+ORCID records can minimize time spent on repetitive tasks through automatic updates. They can also be a tool for creating a complete record of scholarly works through manual addition of more uncommon scholarly products. There are more than 40 types of works available to choose when adding a work to an ORCID profile.
 
 #### ORCID Record Scholarly Work Categories:
 ![](fig/scholarly_works.png){alt='Scholarly Works'}
@@ -98,19 +101,28 @@ While ORCID profiles can minimize time spent on repetitive tasks through automat
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Putting the records of an author’s scholarly products in one place that persists across systems helps make their work accessible. As more systems integrate ORCID, it also streamlines access to the full scope of scholarship that has been done. If you find one work by an author, you can quickly find their other works.
+Putting the records of an author’s scholarly products in one place that persists across systems helps make their work *accessible*. As more systems integrate ORCID, it also streamlines access to the full scope of scholarship that has been done. If you find one work by an author, you can quickly find their other works.
 
 ## Integrations
 
 As a standalone system, an ORCID is not necessarily more valuable than any other scholarly identifier. Because it can both integrate and be integrated into other systems, an ORCID can serve as a key to access a scholarly presence controlled by the scholar. Additionally, librarians or other trusted parties can be added to profiles so that things like standardized affiliations can be curated. 
-Many other systems which track publications have integrated ORCIDs. By connecting to some of the major publication tracking systems, scholars can minimize the time they spend on repetitive data entry, minimize errors, and validate their scholarly record. We will look at how to connect some of these systems in the next episode.
+Many other systems which track publications have integrated ORCIDs. 
+
+An ORCID that is connected to other systems makes author identification *interoperable*. A link to an ORCID record in a publication, repository, or Research Information Management System (RIMS) can validate that the correct person has been associated with a work they actually authored.
+
+## Minimize Repetitive Tasks
+
+By connecting to some of the major publication tracking systems, scholars can minimize the time they spend entering the same information about their published works over and over in different systems, draining cognitive resources that could be assigned to higher value tasks. Fewer cases of repetitive data entry make inadverdent errors less likely, and provide a validated version of a scholarly record. 
+
+When librarians are added to ORCID records as trusted parties, or when Research Information Management Systems (RIMS) are connected to populate ORCID records as sholars add information to their institutional-level recporting systems, ORCID makes this data *reusable*. It can be verified by other tracking systems, and centralize a persistent record of a scholar's work. Because an ORCID is institution-agnostic, it will follow the scholar when they change institutional affiliation. We will look at how to connect some of these systems in the next episode.
+
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - The value of an ORCID goes up over the course of a scholar’s career
 - Connecting an ORCID to other systems maximizes its benefit to scholarly online presence
-- ORCID records help make research FAIR (Findable, Accessible, Inmteroperable, and Reusable)
+- ORCID records help make scholarship FAIR (Findable, Accessible, Interoperable, and Reusable)
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::

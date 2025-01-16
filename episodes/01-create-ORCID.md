@@ -12,7 +12,6 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Describe who runs ORCID and how it can support open science
 - Describe to someone how to create or update an ORCID profile
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
