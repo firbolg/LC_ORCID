@@ -6,34 +6,38 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- How can you connect your ORCID profile with CrossRef, DataCite, and Dimensions platforms?
+- What are the benefits of enabling auto-updates for your ORCID record?
+- How do different systems handle the integration with ORCID?
+- What steps should you take to maintain accurate records across all platforms?
+- How can you troubleshoot issues with your ORCID integrations?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explain the benefits of connecting ORCID to external systems for research visibility and impact tracking
+- Configure the connection between ORCID and Crossref to automatically import publication metadata
+- Set up the integration between ORCID and DataCite to include dataset and software citations
+- Set up and use the integration between ORCID and Dimensions to import publication metadata and to claim publications and update the ORCID record to enrich profile data with additional scholarly content
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## Automating Repetitive Tasks With ORCID
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+Managing research outputs effectively across different platforms can be challenging for researchers. While ORCID provides a persistent digital identifier for researchers, its full potential comes from its ability to integrate with other scholarly systems. This episode focuses on connecting your ORCID profile with three key systems: CrossRef, DataCite, and Dimensions.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+CrossRef's auto-update feature automatically adds your published articles to your ORCID record, DataCite ensures your datasets and other research outputs are properly attributed, and Dimensions provides an additional way to manually add publications to your ORCID record through its 'Add to ORCID' feature. These integrations help create a comprehensive record of your research contributions.
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+By connecting ORCID with these systems, you can:
+
+* Save time by reducing manual data entry
+* Ensure accurate attribution of your work
+* Increase the visibility of your research outputs
+* Maintain up-to-date records across multiple platforms
+* Track your research impact more effectively
+
+Throughout this episode, you'll learn how to set up and manage these integrations, understand their features, and troubleshoot common issues. These integrations will help streamline your research workflow and enhance your digital presence in the scholarly ecosystem.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -42,34 +46,52 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: challenge 
+## Configuring ORCID Integrations
 
-## Challenge 1: Can you do it?
+For each integration, write down the steps you would take to enable auto-update feature that automatically updated your ORCID records with new publications. If you have access to these accounts, you can perform the actual steps. These integrations will help you maintain an up-to-date record of your research outputs without manual intervention.
 
-What is the output of this command?
+::::::::::::::::::::::::::::::::::::: challenge
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+## Connecting ORCID to Crossref
 
-:::::::::::::::::::::::: solution 
+1. Provide your ORCID iD when submitting a paper to a journal. Most publishing platforms allow to enter your ORCID iD in the submission system.
+2. Once the paper gets published, the publisher will register it with Crossref and include your ORCID iD in the metadata
+3. Check your ORCID inbox after you publish. You'll receive a notification in your ORCID inbox with the subject “Crossref has made changes to your ORCID record”
+4. Authorize Crossref Auto-updates. Once you receive the notification, grant Crossref permission to update your record.
+5. Optional. Manually link Crossref to ORCID
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
+::::::::::::::::::::::::::::::::::::: challenge
 
-:::::::::::::::::::::::::::::::::
+## Connecting ORCID to DataCite
 
+Method 1: Through your ORCID record
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+1. Log in to your ORCID account
+2. Navigate to your ORCID record
+3. Find the "Works" section
+4. Click on "Add"
+5. Select "Search & Link"
+6. Look for and select the DataCite option
+7. Grant permissions to DataCite when prompted
 
-:::::::::::::::::::::::: solution 
+Method 2: Through DataCite 
 
-You can add a line with at least three colons and a `solution` tag.
+1. Go to DataCite Profiles (https://profiles.datacite.org/)
+2. Sign in with Globus. Select Indiana University
+3. Go to Settings. Click on your name to access menu
 
-:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: challenge
+
+## Connecting ORCID to Dimensions
+
+1. Go to the Dimensions platform (https://app.dimensions.ai).
+2. Log in to your Dimensions account (or create one).
+3. Look for an option to connect your ORCID. In your account settings click on “ORCID Information” link.
+4. Click on the option to connect your ORCID.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Figures
@@ -104,10 +126,11 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- Connecting ORCID to external systems automates the process of keeping your research profile up-to-date and comprehensive
+- The Crossref integration ensures that journal articles and conference proceedings are accurately attributed to your ORCID profile without manual entry
+- Linking ORCID with DataCite allows for proper credit and visibility of non-traditional research outputs like datasets and software
+- The Dimensions connection provides access to enhanced your ORCID record by adding publications and grant information.
+- These integrations support better author disambiguation and improve information accuracy across the research ecosystem
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
