@@ -53,7 +53,7 @@ For each integration, write down the steps you would take to enable auto-update 
 
 ## Connecting ORCID to Crossref
 
-1. Provide your ORCID iD when submitting a paper to a journal. Most publishing platforms allow to enter your ORCID iD in the submission system.
+1. Provide your ORCID when submitting a paper to a journal. Most publishing platforms allow to enter your ORCID iD in the submission system.
 2. Once the paper gets published, the publisher will register it with Crossref and include your ORCID iD in the metadata
 3. Check your ORCID inbox after you publish. You'll receive a notification in your ORCID inbox with the subject “Crossref has made changes to your ORCID record”
 4. Authorize Crossref Auto-updates. Once you receive the notification, grant Crossref permission to update your record.
@@ -77,8 +77,11 @@ Method 1: Through your ORCID record
 Method 2: Through DataCite 
 
 1. Go to DataCite Profiles (https://profiles.datacite.org/)
-2. Sign in with Globus. Select Indiana University
-3. Go to Settings. Click on your name to access menu
+2. Sign in with Globus. Select your institution, or sign in with your ORCID.
+3. Go to Settings (click on your name to access Settings menu).
+4. Click "Get ORCID Token" button (your screen should then refresh and this button will be relabeled as "Delete ORCID Token")
+5. Confirm that in the Settings menu that after "Auto-Update" you see the words "is enabled" (if not click on the "Update" button and tick the "Auto-Update is enabled" box)
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -93,30 +96,62 @@ Method 2: Through DataCite
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Figures
+## Populating your ORCID with Dimensions
 
-You can use standard markdown for static figures with the following syntax:
+Dimensions offer a streamlined way to add publications to your ORCID records through its ‘Add to ORCID’ feature. While not automatic like CrossRef’s updated, this manual process gives you control over which publications appear in your ORCID profile. In this exercise, you'll learn how to use Dimensions to search for your publications and add them to your ORCID record using the platform's integration features. Dimensions is particularly effective at identifying conference proceedings publications, making it a valuable tool for researchers who regularly present at conferences. This manual adding feature ensures you can easily find and add conference papers to your ORCID record. 
 
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+::::::::::::::::::::::::::::::::::::: challenge
 
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
+## CLAIM YOUR PUBLICATIONS IN DIMENSIONS
 
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
+1. Search for your publications in Dimensions by either:
+    * Entering your name
+    * Looking up your profile
+    * Searching for specific paper titles
+2. Once you find your publications, you can claim them one at a time. Find the 'Add to ORCID' button below each publication. Review the confirmation prompt: "Are you sure you want to add this work to your ORCID record?" and click to confirm. The button status will change to 'In your ORCID record' indicating successful addition.
+3. Go to your ORCID record and check your ‘Works’ section. Locate the new publication entry. Verify that "Source: Dimensions" appears with the entry
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::: callout
 
-## Placeholder 
+## NOTE
 
-Conlusion stuff
+You can add publications from both search results and publication detail pages.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: challenge
+
+## ADDING GRANTS WITH ORCID's WIZARD
+
+ORCID's Search and Link wizard can be used to select existing grants and add them to your ORCID record. Here are the steps:
+
+1. Log in to your ORCID account
+2. Go to the Funding section
+3. Click "Add funding"
+4. Select "Search & Link"
+5. Choose "Dimensions Wizard"
+6. Search by your name to find associated grants, or by Grant Title. An asterisk works as a wildcard character here (e.g., "music therap*" finds "music therapy" and "music therapists").
+7. Choose grants from search results and click "Next" and then "Submit to ORCID" button.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- How might this auto-update feature save you time in maintaining your ORCID record?
+- What is the key difference between how Crossref or DataCite auto-updates work compared to Dimensions' publication adding feature?
+- Why might you need both automatic (Crossref or DataCite) and manual (Dimensions) methods for managing your ORCID record?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- Have you encountered any challenges while setting up these integrations?
+- What benefits do you expect to see from maintaining these connections?
+- How often should you check your ORCID record for accurate updates?
+- What steps can you take to ensure your future publications are automatically added to your ORCID record?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
@@ -125,6 +160,7 @@ Conlusion stuff
 - Linking ORCID with DataCite allows for proper credit and visibility of non-traditional research outputs like datasets and software
 - The Dimensions connection provides access to enhanced your ORCID record by adding publications and grant information.
 - These integrations support better author disambiguation and improve information accuracy across the research ecosystem
+- Regular maintenance of these connections is crucial to ensure the continued accuracy and completeness of your ORCID profile
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

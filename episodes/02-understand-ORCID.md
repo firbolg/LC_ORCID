@@ -110,13 +110,28 @@ Many other systems which track publications have integrated ORCIDs.
 
 An ORCID that is connected to other systems makes author identification *interoperable*. A link to an ORCID record in a publication, repository, or Research Information Management System (RIMS) can validate that the correct person has been associated with a work they actually authored.
 
+
 ## Minimize Repetitive Tasks
 
 By connecting to some of the major publication tracking systems, scholars can minimize the time they spend entering the same information about their published works over and over in different systems, draining cognitive resources that could be assigned to higher value tasks. Fewer cases of repetitive data entry make inadverdent errors less likely, and provide a validated version of a scholarly record. 
 
 When librarians are added to ORCID records as trusted parties, or when Research Information Management Systems (RIMS) are connected to populate ORCID records as sholars add information to their institutional-level recporting systems, ORCID makes this data *reusable*. It can be verified by other tracking systems, and centralize a persistent record of a scholar's work. Because an ORCID is institution-agnostic, it will follow the scholar when they change institutional affiliation. We will look at how to connect some of these systems in the next episode.
 
+::::::::::::::::::::::::::::::::: challenge
 
+
+## WHAT DOES INTEGRATION INTO A RIMS LOOK LIKE?
+
+* A researcher goes to a home page for an institution's ORCID integration
+* They log in to their institution's system with their institutional credentials 
+* They log in to ORCID with their ORCID credentials
+* They see a window pop up that asks them to authorize access between their ORCID and institutional system
+* They see a confirmation that the authorization is successful
+
+Behind the scenes, an institution's IT department will need to configure the logins before this can work. This kind of integration can also be developed further so that works from ORCID records push back out to researcher profile pages in institutional systems. 
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
