@@ -137,14 +137,19 @@ ORCID's Search and Link wizard can be used to select existing grants and add the
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::: questions 
+:::::::::::::::::::::::::::::::::::::: challenge
+
+## ASSESSMENT QUESTIONS
 
 - How might this auto-update feature save you time in maintaining your ORCID record?
 - What is the key difference between how Crossref or DataCite auto-updates work compared to Dimensions' publication adding feature?
 - Why might you need both automatic (Crossref or DataCite) and manual (Dimensions) methods for managing your ORCID record?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::::::: questions 
+
+:::::::::::::::::::::::::::::::::::::: challenge
+
+## DISCUSSION QUESTIONS
 
 - Have you encountered any challenges while setting up these integrations?
 - What benefits do you expect to see from maintaining these connections?
