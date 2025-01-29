@@ -57,7 +57,7 @@ Try doing this with your own name, or the name of a colleague. Identical names c
 
 ## QUESTIONS:
 
-* Do people at your institution verbally use more than one term or set of terms to refer to their place of employment, their unit or department?
+* Do people at your institution use more than one term or set of terms to refer to their place of employment, their unit or department?
 * How many variations of listing your institutional affiliation have you seen? 
 * Is there a standard way of listing affiliation at your institution? 
 
@@ -113,7 +113,7 @@ An ORCID that is connected to other systems makes author identification *interop
 
 ## Minimize Repetitive Tasks
 
-By connecting to some of the major publication tracking systems, scholars can minimize the time they spend entering the same information about their published works over and over in different systems, draining cognitive resources that could be assigned to higher value tasks. Fewer cases of repetitive data entry make inadverdent errors less likely, and provide a validated version of a scholarly record. 
+By connecting to some of the major publication tracking systems, scholars can minimize the time they spend entering the same information about their published works over and over in different systems, draining cognitive resources that could be assigned to higher value tasks. Fewer cases of repetitive data entry make errors less likely, and provide a validated version of a scholarly record. 
 
 When librarians are added to ORCID records as trusted parties, or when Research Information Management Systems (RIMS) are connected to populate ORCID records as sholars add information to their institutional-level recporting systems, ORCID makes this data *reusable*. It can be verified by other tracking systems, and centralize a persistent record of a scholar's work. Because an ORCID is institution-agnostic, it will follow the scholar when they change institutional affiliation. We will look at how to connect some of these systems in the next episode.
 
