@@ -18,7 +18,7 @@ exercises: 2
 
 ## What is an ORCID?
 
-ORCID stands for Open Researcher and Contributor ID. It is a 16-digit unique identifier for scholarly authors. You can think of it as an online curriculum vitae. 
+ORCID stands for Open Researcher and Contributor ID. It is a 16-digit unique identifier for scholarly authors. You can think of it as similar to an online curriculum vitae. 
 It can be very helpful for: 
 
 * Disambiguation of authors with similar names
